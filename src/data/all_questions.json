@@ -1,0 +1,1891 @@
+{
+  "Animal Kingdom": [
+    {
+      "q": "The only type of fish that can live out of water and breathe air is the:",
+      "opts": [
+        "Catifish",
+        "Lungfish",
+        "Monkfish",
+        "Dogfish"
+      ],
+      "correct": "Lungfish",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "A shark's main weapon is",
+      "opts": [
+        "Its loud scream",
+        "Its sharp and powerful teeth",
+        "Its heavy tail",
+        "Its strong head"
+      ],
+      "correct": "Its sharp and powerful teeth",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "_______ have the best sense of smell among all fishes",
+      "opts": [
+        "Porpoise",
+        "Dolphins",
+        "Whales",
+        "Sharks"
+      ],
+      "correct": "Sharks",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "Baby dolphins are born:",
+      "opts": [
+        "On the beach",
+        "In the sea",
+        "In their mother's stomachs",
+        "In a burrow"
+      ],
+      "correct": "On the beach",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "Dolphins find things by using",
+      "opts": [
+        "Sound",
+        "Sight",
+        "Taste",
+        "Smell"
+      ],
+      "correct": "Sound",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "A goldfish's memory lasts up to",
+      "opts": [
+        "15 seconds",
+        "1 hour",
+        "1 day",
+        "1 week"
+      ],
+      "correct": "15 seconds",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "Deep sea anglerfish are",
+      "opts": [
+        "Deaf",
+        "Transparent",
+        "Blind",
+        "Colourful"
+      ],
+      "correct": "Transparent",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "What do fish breathe through?",
+      "opts": [
+        "Their gills",
+        "Their eyes",
+        "Their nose",
+        "Fish doesn’t breathe"
+      ],
+      "correct": "Their gills",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "Almost all bony fishes are :",
+      "opts": [
+        "Fleshy finned fishes",
+        "Ray finned fishes",
+        "Lungfishes",
+        "Lobe finned fishes"
+      ],
+      "correct": "Ray finned fishes",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "What is the largest fish?",
+      "opts": [
+        "Pomfret",
+        "Giant catfish",
+        "Basking shark",
+        "Whale shark"
+      ],
+      "correct": "Whale shark",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "Whats the main difference between the shark's class of fish and other fish classes?",
+      "opts": [
+        "None of the above",
+        "Sharks are larger than other fish",
+        "Sharks are carnivorous",
+        "Sharks have skeletons made out of cartilage"
+      ],
+      "correct": "Sharks have skeletons made out of cartilage",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "Sharks sink to the bottom when not swimming because",
+      "opts": [
+        "Their skeleton are very heavy",
+        "They have no swim bladder",
+        "They have no operculum",
+        "They have no anal fin"
+      ],
+      "correct": "They have no swim bladder",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "Which fin is responsible for a fish's forward movement?",
+      "opts": [
+        "Pelvic",
+        "Dorsal",
+        "Caudal",
+        "Pectoral"
+      ],
+      "correct": "Caudal",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "This fish is used to catch turtles in India. Name her.",
+      "opts": [
+        "Suckerfish",
+        "Lungfish",
+        "Stonefish",
+        "Pomfret"
+      ],
+      "correct": "Suckerfish",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "The only vertebrate whose blood does not contain haemoglobin :",
+      "opts": [
+        "Ice fish",
+        "Milkfish",
+        "Puffer fish",
+        "Pomfret"
+      ],
+      "correct": "Ice fish",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "When threatened, this fish can inflate its body like a balloon.",
+      "opts": [
+        "Puffer fish",
+        "Salmon",
+        "Pomfret",
+        "Mandarin fish"
+      ],
+      "correct": "Puffer fish",
+      "topic": "Animal Kingdom"
+    },
+    {
+      "q": "The fish that can breathe out of water :",
+      "opts": [
+        "Suckerfish",
+        "Stonefish",
+        "Lungfish",
+        "Flying Fish"
+      ],
+      "correct": "Lungfish",
+      "topic": "Animal Kingdom"
+    }
+  ],
+  "English Language": [
+    {
+      "q": "If you had asked he ——————— you.",
+      "opts": [
+        "Will help",
+        "Would have helped",
+        "Would help",
+        "Could help"
+      ],
+      "correct": "Would have helped",
+      "topic": "English Language"
+    },
+    {
+      "q": "I will give you $100 if you ——————– smoking.",
+      "opts": [
+        "Stop",
+        "Stopped",
+        "Will stop",
+        "Would stop"
+      ],
+      "correct": "Stop",
+      "topic": "English Language"
+    },
+    {
+      "q": "If you asked me nicely, I ——————– you a drink.",
+      "opts": [
+        "May get",
+        "Might get",
+        "Might have gotten",
+        "Had got"
+      ],
+      "correct": "Might get",
+      "topic": "English Language"
+    },
+    {
+      "q": "If the policeman had run a bit faster, he ———————— the thief.",
+      "opts": [
+        "Caught",
+        "Could have caught",
+        "Could catch",
+        "Catch"
+      ],
+      "correct": "Could have caught",
+      "topic": "English Language"
+    },
+    {
+      "q": "Would it be alright if I ———————- a friend tonight?",
+      "opts": [
+        "Had brought",
+        "Bring",
+        "Have brought",
+        "Brought"
+      ],
+      "correct": "Bring",
+      "topic": "English Language"
+    },
+    {
+      "q": "If I were rich, I ——————- all the books in the world.",
+      "opts": [
+        "Would have bought",
+        "Will buy",
+        "Will have bought",
+        "Would buy"
+      ],
+      "correct": "Would have bought",
+      "topic": "English Language"
+    },
+    {
+      "q": "If you eat too much, you ——————– ill.",
+      "opts": [
+        "Fell",
+        "Will have fallen",
+        "Will fall",
+        "Would fall"
+      ],
+      "correct": "Will fall",
+      "topic": "English Language"
+    },
+    {
+      "q": "If you heat ice, it ——————–",
+      "opts": [
+        "Would melt",
+        "Melt",
+        "Would have melted",
+        "Melts"
+      ],
+      "correct": "Melts",
+      "topic": "English Language"
+    },
+    {
+      "q": "If I become President, I ——————- abolish taxes.",
+      "opts": [
+        "Would have",
+        "Would",
+        "Will",
+        "Had"
+      ],
+      "correct": "Will",
+      "topic": "English Language"
+    },
+    {
+      "q": "If you ————— to learn a musical instrument, you have to practise.",
+      "opts": [
+        "Would want",
+        "Wanted",
+        "Want",
+        "Have wanted"
+      ],
+      "correct": "Want",
+      "topic": "English Language"
+    },
+    {
+      "q": "If you  ———– maths at school, you would find commerce difficult to understand.",
+      "opts": [
+        "Doesn’t learn",
+        "Learned",
+        "Won’t learn",
+        "Didn’t learn"
+      ],
+      "correct": "Didn’t learn",
+      "topic": "English Language"
+    },
+    {
+      "q": "If that was John, why ————— he stop and say hello?",
+      "opts": [
+        "Didn’t",
+        "Don’t",
+        "Do",
+        "Did"
+      ],
+      "correct": "Didn’t",
+      "topic": "English Language"
+    },
+    {
+      "q": "If I —————- enough time tomorrow, I will come and see you.",
+      "opts": [
+        "Will get",
+        "Have got",
+        "Get",
+        "Had got"
+      ],
+      "correct": "Get",
+      "topic": "English Language"
+    },
+    {
+      "q": "If I ———— her name, I would tell you.",
+      "opts": [
+        "Had known",
+        "Knew",
+        "Know",
+        "Have known"
+      ],
+      "correct": "Knew",
+      "topic": "English Language"
+    },
+    {
+      "q": "If I married you, we both ———– be happy.",
+      "opts": [
+        "Would",
+        "Will",
+        "Would have",
+        "Would been"
+      ],
+      "correct": "Would",
+      "topic": "English Language"
+    },
+    {
+      "q": "Oil ————- if you pour it on water.",
+      "opts": [
+        "Would float",
+        "Floated",
+        "Float",
+        "Floats"
+      ],
+      "correct": "Floats",
+      "topic": "English Language"
+    },
+    {
+      "q": "She would have come if you ————– her.",
+      "opts": [
+        "Invite",
+        "Would invite",
+        "Invited",
+        "Had invited"
+      ],
+      "correct": "Had invited",
+      "topic": "English Language"
+    },
+    {
+      "q": "If he —————– well, he would have passed the examination.",
+      "opts": [
+        "Had studied",
+        "Has studied",
+        "Studied",
+        "Study"
+      ],
+      "correct": "Had studied",
+      "topic": "English Language"
+    },
+    {
+      "q": "If you asked him neatly, he ————– you.",
+      "opts": [
+        "Will have helped",
+        "Would help",
+        "Will help",
+        "Would have helped"
+      ],
+      "correct": "Would help",
+      "topic": "English Language"
+    }
+  ],
+  "Sports": [
+    {
+      "q": "Until 1982, Asian Games were organised by Asian Game Federation (AGF). After 1982 who has organised the Asian Games?",
+      "opts": [
+        "Wide Worlds Of Sports",
+        "Olympic Council Of Asia (OCA)",
+        "AGF",
+        "United Nations"
+      ],
+      "correct": "Olympic Council Of Asia (OCA)",
+      "topic": "Sports"
+    },
+    {
+      "q": "The Asian Games have been hosted by many countries of the Asia. Where were the first games held?",
+      "opts": [
+        "Bangkok, Thailand",
+        "Manila, Phillipenes",
+        "Seoul, Korea",
+        "New Delhi, India"
+      ],
+      "correct": "New Delhi, India",
+      "topic": "Sports"
+    },
+    {
+      "q": "One country dominated the Asian Games the first eight times they were held, leading in the medal count. Which country was this?",
+      "opts": [
+        "China",
+        "Japan",
+        "India",
+        "Indonesia"
+      ],
+      "correct": "Japan",
+      "topic": "Sports"
+    },
+    {
+      "q": "Following the break up of the Soviet Union, several former Soviet Republics began to part in the Asian Games. In 1996, Which Nation outside of Asia was officialy denied entry to the games?",
+      "opts": [
+        "Russia",
+        "USA",
+        "Australia",
+        "Egypt"
+      ],
+      "correct": "Australia",
+      "topic": "Sports"
+    },
+    {
+      "q": "What is the motto of the Asian Games?",
+      "opts": [
+        "Ever onward",
+        "United in spirit",
+        "Unity through sports development",
+        "Outwit-Outplay-Outlast"
+      ],
+      "correct": "Ever onward",
+      "topic": "Sports"
+    },
+    {
+      "q": "Which country has hosted Asian Games more than any other Nation?",
+      "opts": [
+        "India",
+        "Malyasia",
+        "Thailand",
+        "China"
+      ],
+      "correct": "Thailand",
+      "topic": "Sports"
+    },
+    {
+      "q": "Which country has hosted 2010 Asian Games?",
+      "opts": [
+        "Seoul, Korea",
+        "Guangzhou, China",
+        "Manila, Phillipenes",
+        "New Delhi, India"
+      ],
+      "correct": "Guangzhou, China",
+      "topic": "Sports"
+    },
+    {
+      "q": "Which country competes in the Asian Games under the name Chinese Taipei?",
+      "opts": [
+        "Fiji",
+        "Papua New Guinea",
+        "Tonga",
+        "Taiwan"
+      ],
+      "correct": "Taiwan",
+      "topic": "Sports"
+    },
+    {
+      "q": "Who won the first gold medal of the first Asian Games?",
+      "opts": [
+        "Ali Baghbanbashi",
+        "Andres Franco",
+        "N C Kok",
+        "Sachin Nag"
+      ],
+      "correct": "N C Kok",
+      "topic": "Sports"
+    },
+    {
+      "q": "Which country has been officially excluded from the Olympic Council Of Asia, and therefore unable to participate in Asian Games?",
+      "opts": [
+        "Bahrain",
+        "Bhutan",
+        "Georgia",
+        "Israel"
+      ],
+      "correct": "Israel",
+      "topic": "Sports"
+    },
+    {
+      "q": "The 2014 Asian Games will be held in____?",
+      "opts": [
+        "Thailand",
+        "India",
+        "South Korea",
+        "Japan"
+      ],
+      "correct": "South Korea",
+      "topic": "Sports"
+    },
+    {
+      "q": "Which country begged maximum numbers of medals and secured 1st position in the recently concluded Asian Games-2010?",
+      "opts": [
+        "India",
+        "China",
+        "South Kores",
+        "Japan"
+      ],
+      "correct": "China",
+      "topic": "Sports"
+    },
+    {
+      "q": "Chess and Triathlon featured in the competition programme for the first time in which Asian Games?",
+      "opts": [
+        "Asian Games 1998",
+        "Asian Games 2002",
+        "Asian Games 2010",
+        "Asian Games 2006"
+      ],
+      "correct": "Asian Games 2006",
+      "topic": "Sports"
+    },
+    {
+      "q": "The first Indian women athlete to win a gold medal in Asian Game is",
+      "opts": [
+        "Shayni Abhramn",
+        "Anju B. G",
+        "P. T. Usha",
+        "Kamaljit Sandhu"
+      ],
+      "correct": "Kamaljit Sandhu",
+      "topic": "Sports"
+    },
+    {
+      "q": "The Official Mascot of Delhi Asian Games-1982 was",
+      "opts": [
+        "Tiger",
+        "Horse",
+        "Shera",
+        "Elephant"
+      ],
+      "correct": "Elephant",
+      "topic": "Sports"
+    },
+    {
+      "q": "The 4th Asian Games held in Jakarta, Indonesia (1962) witnessed the ommission of two countries. Which are they?",
+      "opts": [
+        "Israel and Japan",
+        "Israel and China",
+        "China and Japan"
+      ],
+      "correct": "Israel and China",
+      "topic": "Sports"
+    }
+  ],
+  "Children's Stories": [
+    {
+      "q": "What are used as the primary means of personal commuinication in the wizarding worlds ?",
+      "opts": [
+        "Owls",
+        "Pigeons",
+        "Eagles",
+        "Ravens"
+      ],
+      "correct": "Owls",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "Where was the Boa Cosntrictor going when Harry let him out at the Zoo ?",
+      "opts": [
+        "Argentina",
+        "Brazil",
+        "Mexico",
+        "Bahamas"
+      ],
+      "correct": "Brazil",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "What creatures feed on positive Human emotions ?",
+      "opts": [
+        "Grindylows",
+        "Boggarts",
+        "Dementors",
+        "Phoenix"
+      ],
+      "correct": "Dementors",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "Who was killed by Basilisk ?",
+      "opts": [
+        "The Grey Lady",
+        "Nearly Headless Nick",
+        "Boaning Myrtle",
+        "The Bloody Baron"
+      ],
+      "correct": "Boaning Myrtle",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "In which movie do Fred and George Weasley fight each other,rolling around on the floor as they sprout long Beards ?",
+      "opts": [
+        "Harry Potter and The Prisoner of Azkaban (2004)",
+        "Harry Potter and The Philosopher's Stone (2001)",
+        "Harry Potter and The Camber Of Secrets (2002)",
+        "Harry Potter and The Goblet of Fire (2005)"
+      ],
+      "correct": "Harry Potter and The Goblet of Fire (2005)",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "What was Lee Jordans on the radio ?",
+      "opts": [
+        "River",
+        "Rapier",
+        "Rodent",
+        "Royal"
+      ],
+      "correct": "River",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "Who enjoys a lively game of Head Juggle ?",
+      "opts": [
+        "Nearly Headless Nick",
+        "Sir Nickolas De Mimsy-Porpington",
+        "Sir Patrick Delaney-Podmore",
+        "The Fat Friar"
+      ],
+      "correct": "Sir Patrick Delaney-Podmore",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "In which movie do Darco and Harry engage in a Wizard's duel ?",
+      "opts": [
+        "Harry Potter and The Chamber Of Secrets (2002)",
+        "Harry Potter and The Goblet Of Fire (2005)",
+        "Harry Potter and The Philosopher's Stone (2001)",
+        "Harry Potter and The Prisoner Of Azkaban (2004)"
+      ],
+      "correct": "Harry Potter and The Chamber Of Secrets (2002)",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "Who betrayed Harry's parents ?",
+      "opts": [
+        "Sirius Black",
+        "Lord Voldemort",
+        "Peter Pettigrew",
+        "Albus Dumbledore"
+      ],
+      "correct": "Peter Pettigrew",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "Who notice Harry's Scar first ?",
+      "opts": [
+        "Ginny",
+        "Ron",
+        "One of the Twins",
+        "Hermoine"
+      ],
+      "correct": "One of the Twins",
+      "topic": "Children's Stories"
+    },
+    {
+      "q": "Ron and Harry fight a troll to prevent it from hurting or killing  hermoine. Which movie does this happen in ?",
+      "opts": [
+        "Harry Potter and The Prisoner of Azkaban (2004)",
+        "Harry Potter and The Goblet Of Fire (2005)",
+        "Harry Potter and the Philosopher's Stone (2001)",
+        "Harry Potter and The Chamber Of Secrets (2002)"
+      ],
+      "correct": "Harry Potter and the Philosopher's Stone (2001)",
+      "topic": "Children's Stories"
+    }
+  ],
+  "General Knowledge": [
+    {
+      "q": "The largest automobile manufacturing centre in the World is located at :",
+      "opts": [
+        "Detroit",
+        "Tokyo",
+        "Berlin",
+        "Birmingham"
+      ],
+      "correct": "Detroit",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which country is the largest producer of Barley in the World?",
+      "opts": [
+        "USA",
+        "India",
+        "Russia",
+        "Pakistan"
+      ],
+      "correct": "Russia",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "The Highest lake above the Sea Level in the World is :",
+      "opts": [
+        "Lake Tanzania",
+        "Lake Toba",
+        "Lake Avemus",
+        "Lake Titicaca"
+      ],
+      "correct": "Lake Titicaca",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which country is the largest producer of long staple cotton?",
+      "opts": [
+        "India",
+        "None of these",
+        "China Japan",
+        "USA"
+      ],
+      "correct": "USA",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which of the following Continent is the World's largest continent?",
+      "opts": [
+        "Australia",
+        "Asia",
+        "Antarctica",
+        "Europe"
+      ],
+      "correct": "Asia",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "The largest Epic of World is :",
+      "opts": [
+        "Odyssey",
+        "Illiad",
+        "Ramayna",
+        "Mahabharta"
+      ],
+      "correct": "Mahabharta",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which is the Second largest island in the World?",
+      "opts": [
+        "Madagascar",
+        "New Guinea",
+        "Baffin",
+        "Borneo"
+      ],
+      "correct": "New Guinea",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which is the World's highest waterfall?",
+      "opts": [
+        "Monge Falls",
+        "Tugela Falls",
+        "None of these",
+        "Angel Falls"
+      ],
+      "correct": "Angel Falls",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which is the largest Ocean in the World?",
+      "opts": [
+        "The Indian Ocean",
+        "The Atlantic Ocean",
+        "The Arctic Ocean",
+        "The Pacific Ocean"
+      ],
+      "correct": "The Atlantic Ocean",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which country is the World's largest opium producer?",
+      "opts": [
+        "Bangladesh",
+        "India",
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "correct": "Afghanistan",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "What is the name of the highest mountain of the World?",
+      "opts": [
+        "Mount Everest",
+        "Kanchenjunga",
+        "Manaslu",
+        "Makalu"
+      ],
+      "correct": "Mount Everest",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which country has World's Highest AIDS Rate?",
+      "opts": [
+        "Swaziland",
+        "Zimbabwe",
+        "Namibia",
+        "South Africa"
+      ],
+      "correct": "Swaziland",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which of the following is the largest City in the World?",
+      "opts": [
+        "New York, United States",
+        "Seoul-Incheon, South Korea",
+        "Tokyo-Yokohama, Japan",
+        "Los Angeles, United States"
+      ],
+      "correct": "Tokyo-Yokohama, Japan",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which country is the highest manufacturer of automobiles in the World?",
+      "opts": [
+        "Russia",
+        "Japan",
+        "Germany",
+        "USA"
+      ],
+      "correct": "USA",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Where we can find the World's largest octopus?",
+      "opts": [
+        "Amazon Forests",
+        "Pacific Ocean",
+        "Nile River",
+        "Arctic Ocean"
+      ],
+      "correct": "Pacific Ocean",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "What is the name of the World's largest flying bird?",
+      "opts": [
+        "Griffon Vulture",
+        "Bald Eangle",
+        "Great Bustard",
+        "None of these"
+      ],
+      "correct": "Great Bustard",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which country is the highest producer of potatoes in the World?",
+      "opts": [
+        "Sri Lanka",
+        "Ukraine",
+        "China",
+        "India"
+      ],
+      "correct": "China",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Which of the following is the World's largest desert?",
+      "opts": [
+        "The Australian",
+        "The Arabian",
+        "The Gobi",
+        "The Sahara"
+      ],
+      "correct": "The Sahara",
+      "topic": "General Knowledge"
+    },
+    {
+      "q": "Where is the World's highest Statue located?",
+      "opts": [
+        "Brazil",
+        "USA",
+        "Japan",
+        "England"
+      ],
+      "correct": "Brazil",
+      "topic": "General Knowledge"
+    }
+  ],
+  "Geography": [
+    {
+      "q": "What is the largest river in the world in terms of volume of water?",
+      "opts": [
+        "Mississippi",
+        "Ganges",
+        "Amazon",
+        "Nile"
+      ],
+      "correct": "Amazon",
+      "topic": "Geography"
+    },
+    {
+      "q": "What is the highest and largest plateau in the world?",
+      "opts": [
+        "Colorado Plateau",
+        "Canadian Shield",
+        "Plateau of Tibet",
+        "Plateau of Spain"
+      ],
+      "correct": "Plateau of Tibet",
+      "topic": "Geography"
+    },
+    {
+      "q": "Which place has the most active geysers of the world?",
+      "opts": [
+        "Selvas",
+        "Great Rift Valley",
+        "Yellowstone National Park",
+        "Stone Rock"
+      ],
+      "correct": "Yellowstone National Park",
+      "topic": "Geography"
+    },
+    {
+      "q": "Identify the largest monolith (block of stone) in the world.",
+      "opts": [
+        "Mt. Everest",
+        "Great Barrier Reef",
+        "Grand Canyon",
+        "Ayers Rock"
+      ],
+      "correct": "Ayers Rock",
+      "topic": "Geography"
+    },
+    {
+      "q": "What is the lowest land point on Earth?",
+      "opts": [
+        "Great Slave",
+        "Aral Sea",
+        "Dead Sea",
+        "Lake Eyre"
+      ],
+      "correct": "Dead Sea",
+      "topic": "Geography"
+    },
+    {
+      "q": "Pick the coldest inhabited place in the world.",
+      "opts": [
+        "Berlin",
+        "Oymyakon",
+        "New York",
+        "Karachi"
+      ],
+      "correct": "Oymyakon",
+      "topic": "Geography"
+    },
+    {
+      "q": "What is the longest mountain range in the world?",
+      "opts": [
+        "The Himalayas",
+        "Andes Mountains",
+        "Rocky Mountains",
+        "Atlas Mountains"
+      ],
+      "correct": "Andes Mountains",
+      "topic": "Geography"
+    },
+    {
+      "q": "By MOST estimates, which of the following is the world's longest river?",
+      "opts": [
+        "Yangtze",
+        "Colorado",
+        "Rhine",
+        "Nile"
+      ],
+      "correct": "Nile",
+      "topic": "Geography"
+    },
+    {
+      "q": "Which lake is the deepest in the world?",
+      "opts": [
+        "Lake Titicaca",
+        "Lake Baikal",
+        "Lake Eyre",
+        "Lake Superior"
+      ],
+      "correct": "Lake Baikal",
+      "topic": "Geography"
+    },
+    {
+      "q": "The largest earthquake of the 20th century occurred on what continent?",
+      "opts": [
+        "North America",
+        "Australia",
+        "Asia",
+        "South America"
+      ],
+      "correct": "South America",
+      "topic": "Geography"
+    },
+    {
+      "q": "In December 2004 there was a great undersea earthquake. In which ocean did this earthquake happen?",
+      "opts": [
+        "Arctic Ocean",
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean"
+      ],
+      "correct": "Indian Ocean",
+      "topic": "Geography"
+    },
+    {
+      "q": "Which of the following is a well-known example of a rock stack (a pillar of hard rock)?",
+      "opts": [
+        "The Rock of Gibraltar",
+        "Holy Island",
+        "Drumlin",
+        "The Old Man of Hoy"
+      ],
+      "correct": "The Old Man of Hoy",
+      "topic": "Geography"
+    },
+    {
+      "q": "In equatorial forests it rains heavily during most afternoons or early evenings. What name is given to this type of rainfall?",
+      "opts": [
+        "Relief rainfall",
+        "Monsoon rainfall",
+        "Cyclonic rainfall",
+        "Convectional rainfall"
+      ],
+      "correct": "Convectional rainfall",
+      "topic": "Geography"
+    },
+    {
+      "q": "Which inland sea, or lake, is the lowest and saltiest on Earth?",
+      "opts": [
+        "Lake Baikal",
+        "Lake Eyre",
+        "The Dead Sea",
+        "The Caspian Sea"
+      ],
+      "correct": "The Dead Sea",
+      "topic": "Geography"
+    },
+    {
+      "q": "In terms of of plate tectonics, what geological process is occurring underneath the Himalayas? (both in the past and right now)?",
+      "opts": [
+        "Advergance",
+        "Divergence",
+        "Convergence",
+        "Orogeny"
+      ],
+      "correct": "Convergence",
+      "topic": "Geography"
+    },
+    {
+      "q": "The process of erosion has two primary components: Weathering and __________",
+      "opts": [
+        "Creation",
+        "Depletion",
+        "Deposition",
+        "Degradation"
+      ],
+      "correct": "Deposition",
+      "topic": "Geography"
+    },
+    {
+      "q": "Dryland salinity, resulting from the deposition of salt crystals on the earth's surface, is caused by a rise in the height of the __________?",
+      "opts": [
+        "Irrigation equipment used on farms",
+        "Water table",
+        "Cloud cover over farms",
+        "Earth's crust"
+      ],
+      "correct": "Water table",
+      "topic": "Geography"
+    },
+    {
+      "q": "The majority of ozone depletion occurs in which layer of the atmosphere?",
+      "opts": [
+        "Mesosphere",
+        "Troposphere",
+        "Stratosphere",
+        "Ionosphere"
+      ],
+      "correct": "Stratosphere",
+      "topic": "Geography"
+    },
+    {
+      "q": "The seasonal downpour of torrential rain that annually moistens the equatorial and tropical zones of the earth is known as the ________",
+      "opts": [
+        "Summer Rains",
+        "Moonlight",
+        "Monsoon",
+        "Typhoon"
+      ],
+      "correct": "Monsoon",
+      "topic": "Geography"
+    }
+  ],
+  "Indian History": [
+    {
+      "q": "Who is the Union minister for railways, as of May 2011?",
+      "opts": [
+        "Dinesh Trivedi",
+        "Lalu Prasad Yadav",
+        "Mamata Banerjee",
+        "Ram Vilas Paswan"
+      ],
+      "correct": "Dinesh Trivedi",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which is India's second oldest railway station?",
+      "opts": [
+        "Chhatrapati Shivaji Terminus, Mumbai",
+        "New Delhi Railway Station",
+        "Howrah Railway Station, Kolkata",
+        "Tambaram Railway Station, Chennai"
+      ],
+      "correct": "Howrah Railway Station, Kolkata",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which is the longest railway tunnel in the country?",
+      "opts": [
+        "Sawarde tunnel, Konkan Railway",
+        "Banihal Pass, Pir Panjal in Jammu & Kashmir",
+        "One Three Hill, Khandala - Pune line",
+        "Karbude tunnel, Konkan Railway"
+      ],
+      "correct": "Banihal Pass, Pir Panjal in Jammu & Kashmir",
+      "topic": "Indian History"
+    },
+    {
+      "q": "What is the name of the mobile hospital train run by the Impact India foundation in collaboration with the Indian railways and Health Ministry?",
+      "opts": [
+        "Jeevan Dan express",
+        "Jeevan Jyot express",
+        "Jeevan Rekha express",
+        "Jeevan Raksha express"
+      ],
+      "correct": "Jeevan Rekha express",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Where is the highest railway station in India located?",
+      "opts": [
+        "Ratnagiri on the Konkan Railway",
+        "Kalka on the Shimla mountain railway",
+        "Coonoor on the Nilgiri Mountain Railway",
+        "Ghoom on the Darjeeling Himalayan Railway"
+      ],
+      "correct": "Ghoom on the Darjeeling Himalayan Railway",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which train has been specially designed for promoting tourism in Rajasthan?",
+      "opts": [
+        "Golden Chariot",
+        "Golden wheels",
+        "Deccan Odyssey",
+        "Palace on Wheels"
+      ],
+      "correct": "Palace on Wheels",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which is the longest railway bridge in India?",
+      "opts": [
+        "Jamuna Bridge at Allahabad",
+        "Thane creek Bridge",
+        "Nehru Setu Bridge on river Sone",
+        "Narnarayan Setu bridge over the Brahmaputra"
+      ],
+      "correct": "Nehru Setu Bridge on river Sone",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which station has been nominated by the UNESCO as a world heritage site?",
+      "opts": [
+        "Kanyakumari Terminus, Tamil Nadu",
+        "Chhatrapati Shivaji Terminus, Mumbai",
+        "Howrah Terminus, Kolkata",
+        "Kochi Harbour Terminus, Kerala"
+      ],
+      "correct": "Chhatrapati Shivaji Terminus, Mumbai",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which is the fastest train in India?",
+      "opts": [
+        "Bangalore Shatabdi Express",
+        "Bhopal Shatabdi Express",
+        "Pune Shatabdi Express",
+        "Patna Shatabdi Express"
+      ],
+      "correct": "Bhopal Shatabdi Express",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which train has the longest run in terms of distance and time on Indian Railways network?",
+      "opts": [
+        "The Himalayan Queen Express",
+        "The Himalaya Express",
+        "The Himgiri Express",
+        "The Himsagar Express"
+      ],
+      "correct": "The Himsagar Express",
+      "topic": "Indian History"
+    },
+    {
+      "q": "As of 2010, In how many zones is Indian Railways divided?",
+      "opts": [
+        "17 zones",
+        "13 zones",
+        "15 zones",
+        "16 zones"
+      ],
+      "correct": "17 zones",
+      "topic": "Indian History"
+    },
+    {
+      "q": "What is the slogan of the Indian Railways?",
+      "opts": [
+        "We promise service with safety",
+        "India on our track",
+        "Lifeline of the nation",
+        "Lifeline of India"
+      ],
+      "correct": "Lifeline of the nation",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Name the two cities where metro trains have been introduced?",
+      "opts": [
+        "Chennai & Delhi",
+        "Delhi & Mumbai",
+        "Kolkata & Delhi",
+        "Delhi & Bangalore"
+      ],
+      "correct": "Kolkata & Delhi",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which British Governor-General was responsible for the introduction of Railways in India?",
+      "opts": [
+        "Warren Hastings",
+        "Lord Dalhousie",
+        "Lord Cornwallis",
+        "Lord Clive"
+      ],
+      "correct": "Lord Dalhousie",
+      "topic": "Indian History"
+    },
+    {
+      "q": "The world's longest railway platform is in India. In which state is it?",
+      "opts": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Punjab",
+        "West Bengal"
+      ],
+      "correct": "West Bengal",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Which express train introduced in 2009, are faster than Rajdhani Express?",
+      "opts": [
+        "Shatabdi Express",
+        "Duronto Express",
+        "Superfast Express",
+        "Rajya Rani Express"
+      ],
+      "correct": "Duronto Express",
+      "topic": "Indian History"
+    },
+    {
+      "q": "Name the express train that runs between India & Pakistan.",
+      "opts": [
+        "Thar Express",
+        "Both a & b",
+        "None of the above",
+        "Samjhauta Express"
+      ],
+      "correct": "Both a & b",
+      "topic": "Indian History"
+    }
+  ],
+  "Logic & Puzzles": [
+    {
+      "q": "How many minutes is it before noon if 29 minutes ago, it was six times as many minutes past 10a.m ?",
+      "opts": [
+        "13 minutes",
+        "10 minutes",
+        "25 minutes",
+        "15 minutes"
+      ],
+      "correct": "13 minutes",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "If I walk 2 miles east, then 1 mile south, then 1 mile east then 2 miles north and finally 3 miles west, how far am I, and in what direction, from my starting point ?",
+      "opts": [
+        "1 mile north",
+        "1 mile east",
+        "1 mile west",
+        "1 mile south"
+      ],
+      "correct": "1 mile north",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "In an right angled triangle, what is the length of the shortest side if the length of the hypotenuse is 78cm and length of the second longest side is 72cm ?",
+      "opts": [
+        "31 cm",
+        "29 cm",
+        "35 cm",
+        "30 cm"
+      ],
+      "correct": "30 cm",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "MARCH, MAY, AUGUST, OCTOBER, JANUARY, ___             What comes next.",
+      "opts": [
+        "FEBRUARY",
+        "APRIL",
+        "MARCH",
+        "JUNE"
+      ],
+      "correct": "MARCH",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "What letter in english alphabet comes four letters before the letter that comes two letters after the letter N ?",
+      "opts": [
+        "P",
+        "K",
+        "L",
+        "O"
+      ],
+      "correct": "L",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "I travel to work by train and bus. If my train journey takes 49minutes and my bus journey takes 17minutes longer, what is my total travelling time in hours and minutes ?",
+      "opts": [
+        "1 hr 40 minutes",
+        "1 hr 5 minutes",
+        "1 hr 55 minutes",
+        "2 hr 10 minutes"
+      ],
+      "correct": "1 hr 55 minutes",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "What day and date is it 36 days after Monday, 10 March ?",
+      "opts": [
+        "Thursday, 12 April",
+        "Tuesday, 15 April",
+        "Monday, 10 April",
+        "Friday, 15 April"
+      ],
+      "correct": "Tuesday, 15 April",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "Which word is closest in meaning to the word \" Propitiatory \"",
+      "opts": [
+        "Opportune",
+        "Apt",
+        "Conciliatory",
+        "Comparable"
+      ],
+      "correct": "Conciliatory",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "How many minutes is it before midnight if 15 minutes ago it was twice as many minutes past 10pm ?",
+      "opts": [
+        "10 minutes",
+        "35 minutes",
+        "15 minutes",
+        "17 minutes"
+      ],
+      "correct": "35 minutes",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "EMU, WREN, PITTA, CUCKOO, ?             What comes next.",
+      "opts": [
+        "PELICAN",
+        "BUZZARD",
+        "QUETZAL",
+        "WAXBILL"
+      ],
+      "correct": "QUETZAL",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "Which word is most opposite in meaning to the word '' Supercilious\"",
+      "opts": [
+        "Imperious",
+        "Morbid",
+        "Modest",
+        "Unremarkable"
+      ],
+      "correct": "Modest",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "Ode is to fundue as pig is to ___________",
+      "opts": [
+        "Barking",
+        "Summer",
+        "Reading",
+        "Spring"
+      ],
+      "correct": "Spring",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "Genuine : Authentic ::::  Mirage :  ____          Choose the correct alternative according to the relationship between two words of one side",
+      "opts": [
+        "Transpiration",
+        "Reflection",
+        "Image",
+        "Illusion"
+      ],
+      "correct": "Illusion",
+      "topic": "Logic & Puzzles"
+    },
+    {
+      "q": "How many minutes is it before noon if 16 minutes ago it was three times as many minutes past 8am ?",
+      "opts": [
+        "4 minutes",
+        "54 minutes",
+        "44 minutes",
+        "56 minutes"
+      ],
+      "correct": "56 minutes",
+      "topic": "Logic & Puzzles"
+    }
+  ],
+  "Mythology": [
+    {
+      "q": "In the epic Ramayana, which bird tried to prevent Ravana from carrying Sita away?",
+      "opts": [
+        "Bhulinga",
+        "Vibhishan",
+        "Garuda",
+        "Jatayu"
+      ],
+      "correct": "Jatayu",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Ramayana, the great Indian epic, which every Indian child grows up learning about, is also the world's longest poem, with over 3 million verses. Which city is described as the birthplace of the main protagonist, Lord Rama?",
+      "opts": [
+        "Dwaraka",
+        "Kashi",
+        "Varanasi",
+        "Ayodhya"
+      ],
+      "correct": "Ayodhya",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Lord Dattatreya is confluence of Bramha, Vishnu and who else?",
+      "opts": [
+        "Indra",
+        "Ganesha",
+        "Sai Baba",
+        "Maheshwara"
+      ],
+      "correct": "Maheshwara",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Vishnu is a dwarf in which of his avatars?",
+      "opts": [
+        "Kurma",
+        "Vamana",
+        "Varaha",
+        "Vashishta"
+      ],
+      "correct": "Vamana",
+      "topic": "Mythology"
+    },
+    {
+      "q": "According to Ramayana who was Lakshmana's mother?",
+      "opts": [
+        "Kaikeyi",
+        "Panchali",
+        "Sumitra",
+        "Kausalya"
+      ],
+      "correct": "Sumitra",
+      "topic": "Mythology"
+    },
+    {
+      "q": "What is the vehicle of Lord Kamadeva?",
+      "opts": [
+        "Swan",
+        "Owl",
+        "Parrot",
+        "Elephant"
+      ],
+      "correct": "Parrot",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Who is the king of wealth?",
+      "opts": [
+        "Kubera",
+        "Indra",
+        "Agni",
+        "Vayu"
+      ],
+      "correct": "Kubera",
+      "topic": "Mythology"
+    },
+    {
+      "q": "How was Sita related to Janaka?",
+      "opts": [
+        "She was his foster-daughter",
+        "She was his wife",
+        "He married her cousin",
+        "He was her cousin"
+      ],
+      "correct": "She was his foster-daughter",
+      "topic": "Mythology"
+    },
+    {
+      "q": "What was the name of the woman who tried to become Rama's wife, only to have her ears, nose, and breasts chopped off by Lakshmana?",
+      "opts": [
+        "Mandodari",
+        "Ahalya",
+        "Kamavalli (Surpanakha)",
+        "Tara"
+      ],
+      "correct": "Kamavalli (Surpanakha)",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Whose bow did King Janaka make each of Sita's suitors try to string?",
+      "opts": [
+        "Vishnu's",
+        "Shiva's",
+        "Janaka's",
+        "Lakshmana's"
+      ],
+      "correct": "Shiva's",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Who took Rama and Lakshmana on a quest at the beginning of 'The Ramayana'?",
+      "opts": [
+        "Sumanthra",
+        "Vali",
+        "Viswamithra",
+        "Jatayu"
+      ],
+      "correct": "Viswamithra",
+      "topic": "Mythology"
+    },
+    {
+      "q": "What was the name of the King's wife who persuaded him to make Bharatha king?",
+      "opts": [
+        "Kooni",
+        "Kausalya",
+        "Kaikeyi",
+        "Sumithra"
+      ],
+      "correct": "Kaikeyi",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Who did the King Dashrath originally want to choose to replace him as king?",
+      "opts": [
+        "Rama",
+        "Kooni",
+        "Bharatha",
+        "Lakshmana"
+      ],
+      "correct": "Rama",
+      "topic": "Mythology"
+    },
+    {
+      "q": "What is the name of Rama's brother who goes with him into exile?",
+      "opts": [
+        "Dasartha",
+        "Bharatha",
+        "Lakshmana",
+        "Ravana"
+      ],
+      "correct": "Lakshmana",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Sita is the avatar of which spouse of Vishnu?",
+      "opts": [
+        "Lakshmi",
+        "Krishna",
+        "Kali",
+        "Durga"
+      ],
+      "correct": "Lakshmi",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Rama is the avatar of what Hindu God?",
+      "opts": [
+        "Brahma",
+        "Vishnu",
+        "Kooni",
+        "Shiva"
+      ],
+      "correct": "Vishnu",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Around whose life is 'The Ramayana' centered?",
+      "opts": [
+        "Ravana",
+        "Viswamithra",
+        "Rama",
+        "Dasaratha"
+      ],
+      "correct": "Rama",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Ram was the son of:",
+      "opts": [
+        "Kunti",
+        "Sumitra",
+        "Kaikeyi",
+        "Kausalya"
+      ],
+      "correct": "Kausalya",
+      "topic": "Mythology"
+    },
+    {
+      "q": "Lakshman's wife's name was:",
+      "opts": [
+        "Draupadi",
+        "Urmila",
+        "Mandodari",
+        "Janaki"
+      ],
+      "correct": "Urmila",
+      "topic": "Mythology"
+    }
+  ],
+  "Science & Nature": [
+    {
+      "q": "What invention was first installed at a Hartford, Connecticut bank in 1889?",
+      "opts": [
+        "Pay telephone",
+        "Burglar alarm",
+        "Time-lock safe",
+        "Automatic teller machine"
+      ],
+      "correct": "Pay telephone",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What piece of clothing was invented by French fashion designer Louis Reard in 1946?",
+      "opts": [
+        "Mini-skirt",
+        "Zoot suit",
+        "Bikini",
+        "Tank top"
+      ],
+      "correct": "Bikini",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "Ralph Samuelson was only 18 when he invented this sporting item in 1922. What was that?",
+      "opts": [
+        "Hang glider",
+        "Water skis",
+        "Motorboat",
+        "Golf tee"
+      ],
+      "correct": "Water skis",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What groovy item was invented by Englishman Edward Craven Walker in 1963?",
+      "opts": [
+        "Hot comb",
+        "Eight-track tape deck",
+        "Leisure suit",
+        "Lava lamp"
+      ],
+      "correct": "Lava lamp",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "Which of the following was first patented by an Australian in 1889?",
+      "opts": [
+        "Electric Fence",
+        "Electric Shaver",
+        "Electric Drill",
+        "Electric Heater"
+      ],
+      "correct": "Electric Drill",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "In what country was the double oval standard (or GEM) paperclip designed?",
+      "opts": [
+        "England",
+        "France",
+        "Canada",
+        "USA"
+      ],
+      "correct": "England",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "Who invented the Seed Drill?",
+      "opts": [
+        "Thomas Hines",
+        "Arlo Guthrie",
+        "Woodie Guthrie",
+        "Jethro Tull"
+      ],
+      "correct": "Jethro Tull",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "In 1868 an English railway engineer by the name of J.P Knight invented something which made its world debut outside London's Houses of Parliament. What did he devise?",
+      "opts": [
+        "Pedestrian crossing",
+        "Road sign",
+        "Street lamp",
+        "Traffic lights"
+      ],
+      "correct": "Traffic lights",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "Cesare Lombroso, an Italian criminologist, made the first scientific attempt in 1895 to catch criminials using what method?",
+      "opts": [
+        "Lie detector",
+        "Identikit",
+        "Undercover surveillance",
+        "Finger prints"
+      ],
+      "correct": "Lie detector",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What did Henry Bessemer invented?",
+      "opts": [
+        "Aluminum",
+        "Electroplating",
+        "Steel rolling mill",
+        "Steel Converter"
+      ],
+      "correct": "Steel Converter",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What did Sir Isaac Newton invented?",
+      "opts": [
+        "Chronometer",
+        "Spectacles",
+        "Microscope",
+        "Reflecting telescope"
+      ],
+      "correct": "Reflecting telescope",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What did Benjamin Franklin invented?",
+      "opts": [
+        "Bifocal spectacles",
+        "Barometer",
+        "Hygrometer",
+        "Radio"
+      ],
+      "correct": "Bifocal spectacles",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What did Elmer A. Sperry invented?",
+      "opts": [
+        "Magnetic compass",
+        "Gyrocompass",
+        "Hydroplane",
+        "Hydraulic turbine"
+      ],
+      "correct": "Gyrocompass",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What did Thomas Davenport invented?",
+      "opts": [
+        "Chesterfield",
+        "Sleeping (railway) car",
+        "Screw propellor",
+        "Electric streetcar"
+      ],
+      "correct": "Electric streetcar",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What did Elisha Otis invented?",
+      "opts": [
+        "Escalator",
+        "Jet engine",
+        "Elevator",
+        "Turbine"
+      ],
+      "correct": "Escalator",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "What did Karl Benz invented?",
+      "opts": [
+        "Streetcar",
+        "Gasoline powered automobile",
+        "Steam turbine",
+        "Glider"
+      ],
+      "correct": "Gasoline powered automobile",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "Where were wigs first invented?",
+      "opts": [
+        "Egypt",
+        "China",
+        "France",
+        "Japan"
+      ],
+      "correct": "Egypt",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "When were bar code scanners invented?",
+      "opts": [
+        "1940s",
+        "1970s",
+        "1960s",
+        "1950s"
+      ],
+      "correct": "1970s",
+      "topic": "Science & Nature"
+    },
+    {
+      "q": "In 1815 Sir Humphrey Davy invented something which was to save the lives of many miners. What was it?",
+      "opts": [
+        "A small birdcage",
+        "A safer lift",
+        "A miner's lamp",
+        "A hard hat"
+      ],
+      "correct": "A miner's lamp",
+      "topic": "Science & Nature"
+    }
+  ]
+}

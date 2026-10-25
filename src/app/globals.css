@@ -1,24 +1,13 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  background: #FBF7EC;
-  font-family: 'Nunito', sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-button {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  font-family: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #FBF7EC; font-family: "DM Sans", sans-serif; color: #15235E; }
+button { border: none; background: none; padding: 0; cursor: pointer; font-family: inherit; }
+a { color: #2D6CDF; text-decoration: none; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes kooFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+.hov-lift { transition: transform .15s, box-shadow .15s; }
+.hov-lift:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(0,0,0,.1); }
+.hov-btn { transition: background .15s, box-shadow .15s; }
+.hov-btn:hover { filter: brightness(.93); }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

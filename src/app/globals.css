@@ -11,3 +11,26 @@ a { color: #2D6CDF; text-decoration: none; }
 .hov-btn { transition: background .15s, box-shadow .15s; }
 .hov-btn:hover { filter: brightness(.93); }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* focus + shared layout */
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2.5px solid #2D6CDF; outline-offset: 3px; border-radius: 4px; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; width: 100%; }
+@media (min-width: 1024px) { .wrap { padding: 0 48px; } }
+.hdr { position: sticky; top: 0; z-index: 200; background: #fff; border-bottom: 2px solid #15235E; }
+.hdr .wrap { height: 60px; display: flex; align-items: center; gap: 16px; }
+@media (min-width: 1024px) { .hdr .wrap { height: 70px; } }
+.hdr-logo { height: 34px; max-width: 220px; width: auto; display: block; }
+@media (min-width: 1024px) { .hdr-logo { height: 52px; } }
+.hdr-links { display: none; }
+@media (min-width: 1024px) { .hdr-links { display: flex; flex: 1; justify-content: center; gap: 28px; } }
+.hdr-link { font-family: Outfit, sans-serif; font-weight: 700; font-size: 14px; color: #5b6784; }
+.hdr-link:hover { color: #15235E; }
+.nav-cta { margin-left: auto; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; background: #2D6CDF; color: #fff !important; border-radius: 999px; padding: 13px 22px; min-height: 44px; font-family: Outfit, sans-serif; font-weight: 700; font-size: 15px; white-space: nowrap; }
+.nav-cta:hover { background: #1a5bc4; }
+@media (min-width: 1024px) { .nav-cta { padding: 9px 22px; } }
+.foot-link { font-family: Outfit, sans-serif; font-weight: 700; font-size: 13px; color: rgba(255,255,255,0.85); }
+.foot-link:hover { color: #fff; }
+.faq-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 768px) { .faq-grid { grid-template-columns: repeat(2, 1fr); } }
+.prose { font-family: "DM Sans", sans-serif; font-weight: 600; font-size: 16px; line-height: 1.7; color: #5b6784; }
+.prose p { margin: 0 0 18px; }

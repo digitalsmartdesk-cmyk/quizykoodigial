@@ -4,6 +4,7 @@ import { D, U, container, pill, type Layout } from '@/lib/ui';
 import Koo from './Koo';
 import AgeChips from './AgeChips';
 import TopicGrid from './TopicGrid';
+import FaqGrid from './FaqGrid';
 
 interface Props {
   L: Layout; ageMode: AgeMode; counts: Record<string, number>; total: number;
@@ -12,7 +13,7 @@ interface Props {
 
 const STEPS = [
   { c: '#2D6CDF', t: 'Choose your age', b: 'Explorer for ages 7–8: bigger text, friendly pace. Champion for 9–11: confident challenge mode.' },
-  { c: '#FF8A2C', t: 'Pick a topic', b: '10 topics from Animal Kingdom to Mythology. Each test has 10 hand-crafted questions. ₹15 per test.' },
+  { c: '#FF8A2C', t: 'Pick a topic', b: '10 topics from Animal Kingdom to Mythology. Each 10-question test is drawn from a larger question bank. ₹15 per test.' },
   { c: '#5DCC4E', t: 'Play & celebrate', b: 'Answer 10 questions, see your score instantly, and celebrate with Koo. No waiting, no signup.' },
 ];
 
@@ -52,7 +53,7 @@ export default function HomeScreen({ L, ageMode, counts, total, onAge, onTopic, 
           </div>
           {L.desktop && (
             <div style={{ flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
-              <Koo state="cheering" size={300} style={{ boxShadow: '0 28px 80px rgba(21,35,94,0.3)', animation: 'kooFloat 3s ease-in-out infinite' }} />
+              <Koo state="idle" size={300} style={{ boxShadow: '0 28px 80px rgba(21,35,94,0.3)', animation: 'kooFloat 3s ease-in-out infinite' }} />
               <div style={{ width: 320, background: '#fff', borderRadius: 18, padding: 18, boxShadow: '0 8px 32px rgba(0,0,0,0.11)', border: '1.5px solid #E7E2D4' }} aria-hidden>
                 <div style={{ fontFamily: D, fontWeight: 800, fontSize: 10, color: '#9aa3b8', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: 10 }}>Science &amp; Nature · Q 4 of 10</div>
                 <div style={{ fontFamily: D, fontWeight: 700, fontSize: 15, marginBottom: 12 }}>Which planet is closest to the Sun?</div>
@@ -93,7 +94,7 @@ export default function HomeScreen({ L, ageMode, counts, total, onAge, onTopic, 
         </div>
       </section>
 
-      <section style={{ padding: `${L.secPad}px 0` }}>
+      <section id="topics" style={{ padding: `${L.secPad}px 0` }}>
         <div style={container(L.pad)}>
           <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: L.secGap, flexWrap: 'wrap', gap: 12 }}>
             <div>
@@ -103,6 +104,19 @@ export default function HomeScreen({ L, ageMode, counts, total, onAge, onTopic, 
             <button className="hov-btn" onClick={() => onGo('play')} style={pill({ padding: '10px 22px', fontSize: 15 })}>Choose a topic →</button>
           </div>
           <TopicGrid L={L} counts={counts} selected={null} onPick={onTopic} />
+        </div>
+      </section>
+
+      <section style={{ padding: `${L.secPad}px 0` }}>
+        <div style={container(L.pad)}>
+          <div style={{ textAlign: 'center', marginBottom: L.secGap }}>
+            <h2 style={{ ...secTitle, margin: 0 }}>Questions parents ask</h2>
+            <div style={{ fontFamily: U, fontWeight: 600, fontSize: 15, color: '#5b6784', marginTop: 8 }}>Honest answers before you spend a rupee.</div>
+          </div>
+          <FaqGrid />
+          <div style={{ textAlign: 'center', marginTop: 28 }}>
+            <a href="/for-parents/" className="hov-btn" style={pill({ display: 'inline-block', padding: '12px 28px', fontSize: 16, background: '#fff', color: '#2D6CDF', border: '2px solid #2D6CDF' })}>More information for parents →</a>
+          </div>
         </div>
       </section>
 
@@ -126,21 +140,6 @@ export default function HomeScreen({ L, ageMode, counts, total, onAge, onTopic, 
         </div>
       </section>
 
-      <footer style={{ background: '#15235E', padding: `${L.desktop ? 48 : 36}px 0` }}>
-        <div style={container(L.pad)}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 24, paddingBottom: 24, marginBottom: 24, borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
-            <img src="/images/logo.png" alt="Quizykoo" style={{ height: 42, width: 'auto', filter: 'brightness(0) invert(1)', display: 'block' }} />
-            <div style={{ display: 'flex', gap: L.desktop ? 28 : 16, flexWrap: 'wrap' }}>
-              {['Privacy Policy', 'Terms of Use', 'Refund Policy', 'Contact Us'].map(l => (
-                <span key={l} style={{ fontFamily: D, fontWeight: 700, fontSize: 13, color: 'rgba(255,255,255,0.85)' }}>{l}</span>
-              ))}
-            </div>
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12, fontFamily: U, fontWeight: 600, fontSize: 12, color: 'rgba(255,255,255,0.55)' }}>
-            <span>© 2026 Quizykoo. All rights reserved.</span><span>Play Smart. Learn Fast.</span>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

@@ -13,6 +13,7 @@ import ProcessingScreen from '@/components/ProcessingScreen';
 import SuccessScreen from '@/components/SuccessScreen';
 import QuizScreen from '@/components/QuizScreen';
 import ResultsScreen from '@/components/ResultsScreen';
+import SiteFooter from '@/components/SiteFooter';
 
 type QuizData = Record<string, Question[]>;
 const FREE_TRIAL_QUESTIONS = 3;
@@ -42,6 +43,9 @@ export default function App() {
 
   useEffect(() => {
     import('@/data/all_questions.json').then(m => setQuizData(m.default as QuizData));
+    const go = new URLSearchParams(window.location.search).get('go');
+    if (go === 'play' || go === 'packs') setScreen(go);
+    else if (go === 'how' || go === 'topics') setTimeout(() => scrollTo(go === 'how' ? 'how-it-works' : 'topics'), 150);
     try {
       const saved = localStorage.getItem('quizykoo.ageMode');
       if (saved === 'explorer' || saved === 'champion') setAgeModeState(saved);
@@ -88,8 +92,8 @@ export default function App() {
   };
 
   const homeScreenTopic = (id: string) => { setTopic(id); setScreen('play'); };
-  const scrollHow = () => {
-    const el = document.getElementById('how-it-works');
+  const scrollTo = (id: string) => {
+    const el = document.getElementById(id);
     if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
   };
 
@@ -104,19 +108,24 @@ export default function App() {
 
   return (
     <>
-      <Nav screen={screen} L={L} onGo={setScreen} onHome={goHome} onHow={scrollHow} />
-      {screen === 'home' && <HomeScreen L={L} ageMode={ageMode} counts={counts} total={total} onAge={setAgeMode} onTopic={homeScreenTopic} onGo={setScreen} />}
-      {screen === 'play' && <PlayScreen L={L} ageMode={ageMode} topic={topic} counts={counts} onAge={setAgeMode} onTopic={setTopic} onNext={() => setScreen('packs')} />}
-      {screen === 'packs' && <PacksScreen L={L} ageMode={ageMode} topic={topic} pack={pack} onPack={setPack} onProceed={proceedFromPacks} />}
-      {screen === 'checkout' && <CheckoutScreen L={L} ageMode={ageMode} topic={topic} pack={pack} onPay={pay} />}
-      {screen === 'processing' && <ProcessingScreen />}
-      {screen === 'success' && <SuccessScreen L={L} topic={topic} ageMode={ageMode} onStart={startQuiz} onPickTopic={() => setScreen('play')} />}
+      <Nav screen={screen} L={L} onGo={setScreen} onHome={goHome} onHow={() => scrollTo('how-it-works')} onTopics={() => scrollTo('topics')} />
+      {screen !== 'quiz' && (
+        <main role="main">
+        {screen === 'home' && <HomeScreen L={L} ageMode={ageMode} counts={counts} total={total} onAge={setAgeMode} onTopic={homeScreenTopic} onGo={setScreen} />}
+        {screen === 'play' && <PlayScreen L={L} ageMode={ageMode} topic={topic} counts={counts} onAge={setAgeMode} onTopic={setTopic} onNext={() => setScreen('packs')} />}
+        {screen === 'packs' && <PacksScreen L={L} ageMode={ageMode} topic={topic} pack={pack} onPack={setPack} onProceed={proceedFromPacks} />}
+        {screen === 'checkout' && <CheckoutScreen L={L} ageMode={ageMode} topic={topic} pack={pack} onPay={pay} />}
+        {screen === 'success' && <SuccessScreen L={L} topic={topic} ageMode={ageMode} onStart={startQuiz} onPickTopic={() => setScreen('play')} />}
+          {screen === 'processing' && <ProcessingScreen />}
+        {screen === 'results' && topic && (
+          <ResultsScreen L={L} score={score} total={questions.length} topic={topic} ageMode={ageMode} onOther={() => setScreen('play')} onAgain={startQuiz} />
+        )}
+        </main>
+      )}
+      {screen !== 'quiz' && screen !== 'processing' && <SiteFooter />}
       {screen === 'quiz' && questions[qIndex] && (
         <QuizScreen L={L} question={questions[qIndex]} qIndex={qIndex} total={questions.length} score={score} ageMode={ageMode} topic={topic!}
           picked={picked} onPick={pick} onNext={next} onExit={goHome} />
-      )}
-      {screen === 'results' && topic && (
-        <ResultsScreen L={L} score={score} total={questions.length} topic={topic} ageMode={ageMode} onOther={() => setScreen('play')} onAgain={startQuiz} />
       )}
     </>
   );

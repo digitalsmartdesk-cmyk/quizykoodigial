@@ -27,7 +27,7 @@ export default function PlayScreen({ L, ageMode, topic, counts, onAge, onTopic, 
           <div style={{ ...container(0), display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16, flexWrap: 'wrap' }}>
             <div>
               <div style={{ fontFamily: D, fontWeight: 800, fontSize: 17 }}>{topic}</div>
-              <div style={{ fontFamily: U, fontWeight: 600, fontSize: 12, color: '#5b6784' }}>{ageMode === 'explorer' ? 'Explorer' : 'Champion'} · {counts[topic] ?? 0} questions</div>
+              <div style={{ fontFamily: U, fontWeight: 600, fontSize: 12, color: '#5b6784' }}>{ageMode === 'explorer' ? 'Explorer' : 'Champion'} · 10-question test</div>
             </div>
             <button className="hov-btn" onClick={onNext} style={pill({ padding: '13px 36px', fontSize: 17 })}>Choose a pack →</button>
           </div>

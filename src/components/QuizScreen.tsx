@@ -19,7 +19,7 @@ export default function QuizScreen({ L, question, qIndex, total, score, ageMode,
   const qSz = exp ? (L.desktop ? 24 : 20) : (L.desktop ? 22 : 18);
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ background: '#fff', borderBottom: '2px solid #15235E', position: 'sticky', top: 0, zIndex: 100 }}>
+      <header role="banner" style={{ background: '#fff', borderBottom: '2px solid #15235E', position: 'sticky', top: 0, zIndex: 100 }}>
         <div style={{ ...container(L.pad), height: 62, display: 'flex', alignItems: 'center', gap: 14 }}>
           <button onClick={onExit} aria-label="Back to home" className="hov-btn" style={{ width: 38, height: 38, borderRadius: 999, border: '1.5px solid #E7E2D4', background: '#FBF7EC', fontSize: 16, color: '#15235E', flexShrink: 0 }}>←</button>
           {L.sm ? null : <div style={{ fontFamily: D, fontWeight: 800, fontSize: 12, color: '#5b6784', whiteSpace: 'nowrap' }}>{topic}</div>}
@@ -27,10 +27,10 @@ export default function QuizScreen({ L, question, qIndex, total, score, ageMode,
             <div style={{ height: '100%', width: `${Math.round((qIndex / total) * 100) + 100 / total}%`, background: '#2D6CDF', borderRadius: 999, transition: 'width 0.4s ease' }} />
           </div>
           <div style={{ fontFamily: D, fontWeight: 800, fontSize: 14, whiteSpace: 'nowrap' }}>Q{qIndex + 1}/{total}</div>
-          <div style={{ background: '#EAF7E9', borderRadius: 999, padding: '5px 13px', fontFamily: D, fontWeight: 800, fontSize: 13, color: '#3FA832', whiteSpace: 'nowrap' }}>{score} correct</div>
+          <div style={{ background: '#EAF7E9', borderRadius: 999, padding: '5px 13px', fontFamily: D, fontWeight: 800, fontSize: 13, color: '#3FA832', whiteSpace: 'nowrap' }} aria-live="polite">{score} correct</div>
         </div>
-      </div>
-      <div style={{ flex: 1, ...container(0), width: '100%', padding: L.desktop ? '32px 48px' : '20px', display: 'flex', gap: 40, alignItems: 'flex-start' }}>
+      </header>
+      <main role="main" style={{ flex: 1, ...container(0), width: '100%', padding: L.desktop ? '32px 48px' : '20px', display: 'flex', gap: 40, alignItems: 'flex-start' }}>
         <div style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', gap: 18 }}>
           {!L.desktop && (
             <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
@@ -60,7 +60,7 @@ export default function QuizScreen({ L, question, qIndex, total, score, ageMode,
           </div>
           {answered && (
             <>
-              <div role="status" style={{ background: correct ? '#EAF7E9' : '#FFF8E1', border: correct ? '1.5px solid #5DCC4E' : '1.5px solid #FFCD2E', borderRadius: 14, padding: '14px 18px', fontFamily: D, fontWeight: 700, fontSize: 14, lineHeight: 1.55, animation: 'fadeUp 0.25s ease' }}>
+              <div aria-live="assertive" role="status" style={{ background: correct ? '#EAF7E9' : '#FFF8E1', border: correct ? '1.5px solid #5DCC4E' : '1.5px solid #FFCD2E', borderRadius: 14, padding: '14px 18px', fontFamily: D, fontWeight: 700, fontSize: 14, lineHeight: 1.55, animation: 'fadeUp 0.25s ease' }}>
                 {correct ? 'Correct! Great thinking.' : `The answer is: ${question.correct}`}
               </div>
               <button className="hov-btn" onClick={onNext} style={{ height: 56, background: '#2D6CDF', borderRadius: 999, fontFamily: D, fontWeight: 700, fontSize: 18, color: '#fff', animation: 'fadeUp 0.3s ease' }}>
@@ -84,7 +84,7 @@ export default function QuizScreen({ L, question, qIndex, total, score, ageMode,
             <div style={{ background: exp ? '#EAF1FC' : '#F3ECFB', border: `1.5px solid ${exp ? '#2D6CDF' : '#9B5BDF'}`, borderRadius: 999, padding: '9px 16px', textAlign: 'center', fontFamily: D, fontWeight: 800, fontSize: 12, color: exp ? '#2D6CDF' : '#9B5BDF' }}>{exp ? 'Explorer' : 'Champion'} mode</div>
           </aside>
         )}
-      </div>
+      </main>
     </div>
   );
 }

@@ -18,7 +18,7 @@ export default function CheckoutScreen({ L, ageMode, topic, pack, onPay }: Props
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <div>
               <div style={{ fontFamily: D, fontWeight: 800, fontSize: 19 }}>{p.label}</div>
-              <div style={{ fontFamily: U, fontWeight: 600, fontSize: 13, color: '#5b6784', marginTop: 2 }}>{p.desc}</div>
+              <div style={{ fontFamily: U, fontWeight: 600, fontSize: 13, color: '#5b6784', marginTop: 2 }}>{p.label} · 10-question test</div>
             </div>
             <div style={{ fontFamily: D, fontWeight: 800, fontSize: 32, color: '#2D6CDF' }}>{p.price}</div>
           </div>

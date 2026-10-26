@@ -17,7 +17,7 @@ export default function TopicGrid({ L, counts, selected, onPick, showCheck }: Pr
             </div>
             <div style={{ fontFamily: D, fontWeight: 800, fontSize: L.cardNameSz, color: '#15235E', lineHeight: 1.25, flex: 1 }}>{t.id}</div>
             <div style={{ fontFamily: U, fontWeight: 600, fontSize: 11, color: '#5b6784' }}>{t.desc}</div>
-            <div style={{ fontFamily: D, fontWeight: 800, fontSize: 11, color: t.accent }}>{counts[t.id] ?? 0} questions</div>
+            <div style={{ fontFamily: D, fontWeight: 800, fontSize: 11, color: t.accent }}>{counts[t.id] ?? 0} questions available</div>
           </button>
         );
       })}
